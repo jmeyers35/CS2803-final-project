@@ -11,7 +11,7 @@ The accuracy scores typically range from 65% to 68%, with 68% being the absolute
 train models to determine the win probability of a team given the time left in the game and the point differential relative to that team. 
 These worked much better, typically getting around 95% to 97% accuracy. The functions return a tuple of the trained model and its average accuracy
 based on test data. An example use of the function could be this: `clf, score = build_sklearn_randforest_classifier('new_run_pass.csv')`. This will
-give you an sklearn RandomForestClassifier trained on the run/pass data.
+give you an sklearn RandomForestClassifier trained on data from new_run_pass.csv.
 - new_run_pass.csv: This is the data used to train the classifiers to determine run or pass based on game situation. This csv was 
 created from the original nfl_data.csv using Pandas DataFrame queries. 
 - play_year.csv: This is the file the visualizations were created from. This csv was 
