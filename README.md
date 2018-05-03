@@ -1,4 +1,5 @@
-# CS2803-final-project- NFL Analysis
+# CS2803-final-project- NFL Analysis (Jacob Meyers and Lauren Kearley)
+
 
 ## File Descriptions
 - nfl_data.csv: The original dataset from which we gathered all the data. Came from Keggle, can be found [here](https://www.kaggle.com/maxhorowitz/nflplaybyplay2009to2016).
