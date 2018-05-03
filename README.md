@@ -2,7 +2,7 @@
 
 
 ## File Descriptions
-- nfl_data.csv: The original dataset from which we gathered all the data. Came from Keggle, can be found [here](https://www.kaggle.com/maxhorowitz/nflplaybyplay2009to2016).
+- nfl_data.csv: The original dataset from which we gathered all the data. Came from Kaggle, can be found [here](https://www.kaggle.com/maxhorowitz/nflplaybyplay2009to2016).
 - DataViz.ipynb: A Jupyter Notebook containing data visualizations of run/pass trends in the NFL since 2009, made with matplotlib. As suspected, even within
 this short period of time the NFL as a whole shifted ~3% toward passing.
 - nfl_classifiers.py: Python module which has functions to create scikit-learn classifiers and regressors on the NFL data. The classifiers
