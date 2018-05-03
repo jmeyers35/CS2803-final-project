@@ -11,7 +11,7 @@ def preprocess(file):
     """ 
     Returns a 4-tuple of DataFrames. The first element is the X vector to be used for 
     training, the second the X vector to be used for testing, the third
-    the y values for training, the fourth 
+    the y values for training, the fourth the y values for testing.
     """
     data = pd.read_csv(file, low_memory=False, index_col=0).dropna()
     X = data.iloc[:, :-1]
@@ -22,8 +22,6 @@ def preprocess(file):
 def build_sklearn_nnet_classifier(file):
     """
     Returns an sklearn MLPClassifier trained on the file name input as a parameter and the accuracy score in a tuple.
-    
-
     """
     # Split X and y into training and testing data
     X_train, X_test, y_train, y_test = preprocess(file)
